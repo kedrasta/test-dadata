@@ -1,0 +1,72 @@
+.main {
+  box-sizing: border-box;
+  width: 300px;
+  max-height: calc(100vh - 100px);
+  padding-bottom: 20px;
+  overflow: auto;
+  margin-top: 80px;
+  min-width: 100px;
+  height: 944px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 5px 0px rgba(2, 0, 96, 0.25);
+}
+
+.main::-webkit-scrollbar {
+  height: 1px;
+  width: 6px;
+}
+.main::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #4f27bf;
+}
+.main::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.main p {
+  font-size: 20px;
+  margin: 32px 0 0 32px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: 40px 0 0 32px;
+}
+
+.name {
+  margin: 0 45px 0 16px;
+}
+
+.activeLink {
+  border-right: 3px solid #4f27bf;
+}
+
+.child {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: 40px 0 0 80px;
+}
+
+@media (max-width: 768px) {
+  .name {
+    display: none;
+  }
+  .main {
+    width: 120px;
+  }
+  .main p {
+    display: none;
+  }
+  .child {
+    margin: 16px 0 0 32px;
+  }
+}

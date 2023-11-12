@@ -1,0 +1,52 @@
+.main {
+  flex-grow: 1;
+  margin-top: 80px;
+  padding-left: 32px;
+}
+
+.content {
+  box-sizing: border-box;
+  max-height: calc(100vh - 330px);
+  overflow: auto;
+  padding: 24px;
+  margin-top: 32px;
+  margin-right: 32px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(2, 0, 97, 0.25);
+}
+.content::-webkit-scrollbar {
+  height: 1111px;
+  width: 6px;
+}
+.content::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #4f27bf;
+}
+.content::-webkit-scrollbar-track {
+  background: #fff;
+}
+.content h2 {
+  font-size: 26px;
+}
+.content span {
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.hr {
+  margin-top: 16px;
+  background-color: #d7d7d7;
+}
+
+.result {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.openSvg {
+  padding: 20px;
+}
+.closeSvg {
+  display: none;
+}

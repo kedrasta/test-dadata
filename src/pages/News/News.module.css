@@ -1,0 +1,25 @@
+.main {
+  flex-grow: 1;
+  margin-top: 80px;
+  padding-left: 32px;
+}
+
+.content {
+  margin-top: 24px;
+  position: fixed;
+  box-sizing: border-box;
+  max-height: calc(100vh - 200px);
+  overflow: auto;
+}
+
+.content::-webkit-scrollbar {
+  height: 1111px;
+  width: 6px;
+}
+.content::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #4f27bf;
+}
+.content::-webkit-scrollbar-track {
+  background: #fff;
+}
